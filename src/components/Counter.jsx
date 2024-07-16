@@ -14,6 +14,7 @@ const Counter = () => {
             <span>{counterValue}</span>
             <button onClick={() => dispatch(increaseCounter())}>+</button>
         </div>
+
     )
 }
 export default Counter
